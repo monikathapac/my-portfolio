@@ -1,0 +1,35 @@
+.footer-container{
+    background-color: aquamarine;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-radius: 9px;
+}
+
+.footer-content{
+display: flex;
+gap:100px;
+}
+
+
+
+.footer-content h3{
+    margin-right: 250px;
+}
+
+
+
+ul li{
+    margin-bottom: 10px;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-text{
+    text-align: center;
+    font-size: 10px;
+    margin: 10px;
+
+}
+
+
+
