@@ -77,7 +77,7 @@ localStorage.setItem("formData",JSON.stringify(formData));
 
       //main return of the component      
     return(
-
+<div id="contact">
         <div className="contact-container">
                 <div className="left">
                     <h1 class="subtitle">Contact me</h1>   
@@ -171,7 +171,7 @@ localStorage.setItem("formData",JSON.stringify(formData));
                 </div>
 
 
-        </div>
+        </div></div>
    );
 
 }

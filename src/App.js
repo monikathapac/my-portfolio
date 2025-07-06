@@ -1,28 +1,24 @@
-import React from 'react';
-import './App.css';
-import Header from './Header';
-import HomeSection from './HomeSection';
-import AboutSection from './AboutSection';
-import ProjectSection from './ProjectSection';
-import ContactSection from './ContactSection';
-import Footer from './Footer';
+import React from "react";
+import Home from "./Home";
+import FAQ from "./FAQ";
+import ErrorP from "./ErrorP";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import ProjectSection from "./ProjectSection";
 
-
-function App() {
+const App = () => {
   return (
-    <div>
-      <Header/>
-      <HomeSection/>
-      <AboutSection/>
-      <ProjectSection/>
-      <ContactSection/>
-      <Footer/>
-    
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/faq" element={<FAQ />} />
 
-    </div>
+        <Route path="*" element={<ErrorP />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
 
-// /*here we add the components*/
+// /*here we add the componentsss*/

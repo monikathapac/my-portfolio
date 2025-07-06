@@ -1,35 +1,50 @@
-.footer-container{
-    background-color: aquamarine;
-    margin-top: 20px;
-    padding-left: 20px;
-    border-radius: 9px;
+html {
+  scroll-behavior: smooth;
 }
 
-.footer-content{
-display: flex;
-gap:100px;
-}
-
-
-
-.footer-content h3{
-    margin-right: 250px;
-}
-
-
-
-ul li{
-    margin-bottom: 10px;
-    list-style: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.footer-text{
-    text-align: center;
-    font-size: 10px;
-    margin: 10px;
+.footer-container {
+  background-image: url("/public/bg.jpeg");
+  background-position: bottom;
+  background-size: cover;
+height: 180px;
+  padding-left: 30px;
 
 }
 
+.footer-content {
+  display: flex;
+  gap: 100px;
+}
 
+.footer-content h3 {
+  margin-right: 100px;
+  font-size: 1.3rem;
+  font-family: "Merienda", cursive;
+  font-weight: 800;
+}
 
+.footer-content ul {
+  margin-left: 230px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  padding: 3px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+ul li a {
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 800;
+}
+ul li a:hover {
+  color: rgb(25, 50, 100);
+  font-size: larger;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 1.2rem;
+ padding: 10px;
+}
