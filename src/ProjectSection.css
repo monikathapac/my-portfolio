@@ -41,6 +41,7 @@ html {
   border-radius: 15px;
   background-color:rgb(236, 240, 248);
  box-shadow:  -19px 11px 9px rgb(25, 50, 100);
+padding-bottom: 30px;
 }
 .card h2 {
   text-align: left;
@@ -88,11 +89,18 @@ html {
 }
 
 .card img {
-  margin-left: 12px;
+  margin-left: 120px;
   height: 50%;
   width: 85%;
   border: solid 1px rgb(0, 0, 0);
   border-radius: 12px;
+}
+
+
+.my_icon{
+  height:200px;
+   height:210px;
+   margin-left: 20px;
 }
 
 /*
@@ -100,8 +108,6 @@ html {
     display: inline-block;
     opacity: 0;
     transition: slideIn 1s ;
-
-
 
     .cards{
       width: 1000px;
